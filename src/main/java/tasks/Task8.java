@@ -64,6 +64,7 @@ public class Task8 {
 
   //...
   public long countEven(Stream<Integer> numbers) {
+
     return numbers.filter(num -> num % 2 == 0).count();
   }
 }
